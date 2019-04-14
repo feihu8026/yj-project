@@ -9,7 +9,7 @@ namespace AK.QYH.Common
     public static class CookieHelper
     {
         /// <summary>
-        /// 清除Cookie
+        /// 清除Cookie  修改了
         /// </summary>
         /// <param name="key">cookie键</param>
         public static void ClearCookie(string key)
