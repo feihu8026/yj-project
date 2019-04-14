@@ -9,12 +9,12 @@ namespace AK.QYH.Common
     public static class CookieHelper
     {
         /// <summary>
-        /// 清除Cookie  修改了
+        /// 清除Cookie   
         /// </summary>
         /// <param name="key">cookie键</param>
         public static void ClearCookie(string key)
         {
-            SetCookie(key, string.Empty, 0.0);
+            SetCookie(key, string.Empty, 0.0);   
         }
 
         /// <summary>
